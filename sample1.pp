@@ -136,3 +136,16 @@ wsmserver       stream  tcp     nowait  root    /usr/websm/bin/wsmserver wsmserv
 #telnet  stream  tcp6    nowait  root    /usr/sbin/tcpd      telnetd -a
 xmquery dgram   udp6    wait    root    /usr/bin/xmtopas xmtopas -p3
 bgssd stream  tcp  nowait patrol  /etc/bgs/SD/bgssd.exe bgssd.exe -d /etc/bgs/SD
+=========
+
+Info: Applying configuration version '1588231128'
+Notice: /Stage[main]/Main/File_line[disable_telnet]/ensure: created
+Debug: /Stage[main]/Main/File_line[disable_telnet]: The container Class[Main] will propagate my refresh event
+Notice: /Stage[main]/Main/File_line[disable_telnet_tcpwrapper]/ensure: created
+Debug: /Stage[main]/Main/File_line[disable_telnet_tcpwrapper]: The container Class[Main] will propagate my refresh event
+Debug: Class[Main]: The container Stage[main] will propagate my refresh event
+Debug: Finishing transaction 34111620
+Debug: Storing state
+Debug: Pruned old state cache entries in 0.00 seconds
+Debug: Stored state in 0.04 seconds
+Notice: Applied catalog in 0.19 seconds
